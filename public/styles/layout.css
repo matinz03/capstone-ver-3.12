@@ -328,3 +328,11 @@ footer .wave#wave4 {
     background-position-x: 1000px;
   }
 }
+.push-right {
+  margin-left: auto; /* This pushes content to the right */
+  text-align: right; /* Ensure the text aligns to the right */
+}
+
+.nav-item.push-right {
+  margin-left: auto;
+}
