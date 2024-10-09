@@ -36,18 +36,18 @@ app.get("/home", (req, res) => {
 app.get("/contact", (req, res) => {
   res.render("contact.ejs");
 });
-app.get("/pig", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "pig", "index.html"));
-});
-app.get("/guess", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "guess", "index.html"));
-});
-app.get("/simon", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "simon", "index.html"));
-});
-app.get("/tindog", (req, res) => {
- res.sendFile(path.join(__dirname, "public", "tin", "index.html"));
-});
+// app.get("/pig", (req, res) => {
+//   res.sendFile(path.join(__dirname, "public", "pig", "index.html"));
+// });
+// app.get("/guess", (req, res) => {
+//   res.sendFile(path.join(__dirname, "public", "guess", "index.html"));
+// });
+// app.get("/simon", (req, res) => {
+//   res.sendFile(path.join(__dirname, "public", "simon", "index.html"));
+// });
+// app.get("/tindog", (req, res) => {
+//  res.sendFile(path.join(__dirname, "public", "tin", "index.html"));
+// });
 app.get("/projects", (req, res) => {
   res.render("projects.ejs");
 });
